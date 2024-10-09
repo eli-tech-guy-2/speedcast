@@ -1,0 +1,5 @@
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile
